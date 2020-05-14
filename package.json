@@ -1,0 +1,17 @@
+{
+  "name": "pesomartejupiter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "es-dev-server --app-index index.html --watch --node-resolve"
+  },
+  "author": "CarlosBeltranV",
+  "license": "ISC",
+  "devDependencies": {
+    "es-dev-server": "^1.49.0"
+  },
+  "dependencies": {
+    "lit-html": "^1.2.1"
+  }
+}
