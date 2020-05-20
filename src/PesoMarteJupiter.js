@@ -19,6 +19,7 @@ export class PesoMarteJupiter extends LitElement {
   constructor() {
     super()
     this.usuario = prompt("Cuál es tu peso?")
+    this.peso = parseInt(this.usuario)
     this.planeta = parseInt(prompt("Elige tu planeta\n1 es marte, 2 es jupiter"))
     this.g_tierra = 9.8
     this.g_marte = 3.7

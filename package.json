@@ -2,14 +2,19 @@
   "name": "pesomartejupiter",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/peso-marte-jupiter.js",
   "scripts": {
-    "start": "es-dev-server --app-index index.html --watch --node-resolve"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarlosBeltranV/pesoMarteJupiter.git"
   },
   "author": "CarlosBeltranV",
   "license": "MIT",
-  "devDependencies": {
-    "es-dev-server": "^1.46.1"
+  "homepage": "https://github.com/CarlosBeltranV/pesoMarteJupiter#readme",
+  "bugs": {
+    "url": "https://github.com/CarlosBeltranV/pesoMarteJupiter/issues"
   },
   "dependencies": {
     "lit-element": "^2.3.1"
