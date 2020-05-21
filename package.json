@@ -16,6 +16,11 @@
   "bugs": {
     "url": "https://github.com/CarlosBeltranV/pesoMarteJupiter/issues"
   },
+  "keywords": [
+    "javaScript",
+    "Web Component",
+    "LitElement"
+  ],
   "dependencies": {
     "lit-element": "^2.3.1"
   }
