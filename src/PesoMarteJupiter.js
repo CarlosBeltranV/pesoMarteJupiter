@@ -39,9 +39,11 @@ export class PesoMarteJupiter extends LitElement {
 
   render() {
     return html`
+      <h3>Peso en Marte ó Júpiter</h3>
       <p>
         Tu peso en ${this.nombre} <strong>${this.peso_final} Kilos</strong>
       </p>
+      <p>Favor recargar para otro peso</p>
     `
   }
 
